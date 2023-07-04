@@ -1,0 +1,50 @@
+.container {
+    background-color: rgba(30, 0, 10, 0.1);
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.container .title {
+    text-align:  center;
+    color: brown;
+}
+.ops {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.ops .btn {
+    padding: 12px 14px;
+    width: 20%;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn :active {
+    background-color: #222;
+    color: #f77070;
+}
+.btn-warning {
+    background-color: coral;
+    color: #fff;
+
+.btn-sucess{
+        background-color: #030000;
+        color: #e99b9b;
+    }
+
+.output {
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid #222;
+    color: #222;
+    font-size: 3em;
+    text-align: right;
+    padding: 0px 30px ;
+}
+}
